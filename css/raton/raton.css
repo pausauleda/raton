@@ -1,0 +1,127 @@
+body {
+background-color: #D8D8D8;
+background-image: url(/sites/all/themes/raton/images/raton/degradado.png);
+background-repeat: repeat-x;
+color: #888888;
+}
+
+a:link {
+  color: #CC0000;
+  font-weight: bold;
+  text-decoration:none;
+  }
+a:visited {
+  color: #CC6666;
+  font-weight: bold;
+  text-decoration:none;
+  }
+a:hover {
+  color: #888888;
+  font-weight: bold;
+  text-decoration:underline;
+}
+
+#page-wrapper,
+.region-bottom {
+  width: 960px;
+}
+
+/* cabecera */
+#header {
+background-color: #FFFFFF;
+height: 150px; /* alto imagen fondo */
+background-image: url(/sites/all/themes/raton/images/raton/cabeceraraton960.png);
+background-repeat: no-repeat;
+}
+
+#logotipo {
+display: block;
+width: 960px;
+height: 150px;
+}
+
+/* contenido */
+#content,
+.no-sidebars #content {
+  width: 960px;
+}
+
+.sidebar-first #content {
+  width: 760px;
+}
+
+.sidebar-second #content {
+  width: 760px;
+}
+
+.two-sidebars #content {
+  width: 560px;
+}
+
+.region-sidebar-first {
+  width: 200px;
+}
+
+.region-sidebar-first .section {
+margin: 0;
+}
+
+.region-sidebar-second {
+  width: 200px;
+}
+
+.region-sidebar-second .section {
+margin: 0;
+}
+
+
+
+#main {
+background-color: #FFFFFF; 
+}
+
+#content {
+background-color: #FFFFFF;
+}
+
+#content .section {
+padding: 60px;
+}
+
+
+/* columna izquierda */
+.region-sidebar-first .section {
+background-color: #FFFFFF;
+padding: 20px;
+}
+
+/* columna derecha */
+.region-sidebar-second .section {
+background-color: #FFFFFF;
+padding: 20px;
+}
+
+
+/* tipografia */
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset {
+  font-family: "Ovo", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+}
+
+/* no mostrar seleccion formato de texto */
+#edit-field-sinopsis-und-0-format,
+#edit-field-opinion-und-0-format {
+width: 0px;
+height: 0px;
+visibility: hidden;
+}
+
+
