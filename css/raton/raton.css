@@ -124,4 +124,17 @@ height: 0px;
 visibility: hidden;
 }
 
+/* imagenes cabecera y pie columnas */
+.columnasup {
+background-image: url(/sites/all/themes/raton/images/raton/columnasup.png);
+background-position: center top;
+background-repeat: no-repeat;
+padding-top: 65px;
+}
+.columnainf {
+background-image: url(/sites/all/themes/raton/images/raton/columnainf.png);
+background-position: center bottom;
+background-repeat: no-repeat;
+padding-bottom: 65px;
+}
 

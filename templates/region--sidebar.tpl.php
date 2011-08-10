@@ -28,6 +28,8 @@
 ?>
 <?php if ($content): ?>
   <div class="<?php print $classes; ?>"><div class="section">
+  <div class="columnasup"><div class="columnainf">
     <?php print $content; ?>
+  </div></div><!--/.columnasup, /.columnainf -->
   </div></div><!-- /.section, /.region -->
 <?php endif; ?>
