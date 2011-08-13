@@ -138,3 +138,16 @@ background-repeat: no-repeat;
 padding-bottom: 65px;
 }
 
+/* imagenes entre los bloques de las columnas */
+.sidebar .content {
+background-image: url(/sites/all/themes/raton/images/raton/columnamed.png);
+background-position: center bottom;
+background-repeat: no-repeat;
+padding-bottom: 65px;
+}
+
+.sidebar .last .content {
+background-image: none;
+padding-bottom: 5px;
+}
+
