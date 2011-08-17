@@ -73,7 +73,7 @@
 
   <div id="header"><div class="section clearfix">
 
-	<a id="logotipo" href="http://unratonenlabiblioteca.com"></a>
+	<a id="logotipo" href="<?php print $front_page; ?>"></a>
 
   </div></div><!-- /.section, /#header -->
 
